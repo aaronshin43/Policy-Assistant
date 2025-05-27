@@ -37,8 +37,3 @@ def get_context(question: str):
     context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
 
     return context_text
-
-# if __name__:
-#     answer = query_response(input("Ask question:"))
-#     print("\n\n")
-#     print("Answer: ")
