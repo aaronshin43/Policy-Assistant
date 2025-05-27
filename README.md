@@ -1,18 +1,18 @@
-# 🧠 Policy Assistant ⚖️📄
+# Policy Assistant
 
 A conversational assistant that answers questions about college policies using local LLMs and retrieved documents.
 
-## 🚀 Features
+## Features
 
-- 🔍 Ask questions about official college policy documents
-- 🧠 Uses LangChain's Retrieval-Augmented Generation (RAG)
-- 💾 Stores embedded PDFs using Chroma vector database
-- 💬 Built with Streamlit for an interactive chat interface
-- 🧱 Powered by locally running Ollama LLM
+- Ask questions about official college policy documents
+- Uses LangChain's Retrieval-Augmented Generation (RAG)
+- Stores embedded PDFs using Chroma vector database
+- Built with Streamlit for chat interface
+- Powered by locally running Ollama LLM
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### 1. **Install Ollama**
 
@@ -66,9 +66,9 @@ python vector.py
 streamlit run app.py
 ```
 
-### 📌 Notes
+### Notes
 The app uses conversational memory (last 3 turns) for better context.
 The response will state clearly if the answer is not found in the provided documents.
 
-### 📄 License
+### License
 This project is open-source and licensed under the MIT License.
