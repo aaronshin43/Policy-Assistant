@@ -34,14 +34,14 @@ ollama pull nomic-embed-text
 
 ```bash
 git clone https://github.com/aaronshin43/Policy-Assistant.git
-cd policy-assistant
+cd Policy-Assistant
 ```
 
 ### 4. **Create and activate a virtual environment**
 
 ```bash
 python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+source venv/Scripts/activate   # On Windows: venv\Scripts\activate
 ```
 
 ### 5. **Install dependencies**
