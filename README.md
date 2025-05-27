@@ -33,7 +33,7 @@ ollama pull nomic-embed-text
 ### 3. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/policy-assistant.git
+git clone https://github.com/aaronshin43/Policy-Assistant.git
 cd policy-assistant
 ```
 
