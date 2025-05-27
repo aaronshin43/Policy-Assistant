@@ -10,8 +10,6 @@ A conversational assistant that answers questions about college policies using l
 - Built with Streamlit for chat interface
 - Powered by locally running Ollama LLM
 
----
-
 ## Installation
 
 ### 1. **Install Ollama**
