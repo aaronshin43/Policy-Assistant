@@ -33,10 +33,10 @@ def stream_llm_rag_response(model, question, chat_history):
     st.session_state.messages.append(AIMessage(response_message))
 
 def main():
-    st.set_page_config(page_title="Chat with multiple PDFs",
-                       page_icon=":books:")
+    st.set_page_config(page_title="Policy Assistant",
+                       page_icon=":mortar_board:")
     st.write(css, unsafe_allow_html=True)
-    st.header("Chat with multiple PDFs :books:")
+    st.header("Chat with policy assistant :speech_balloon:")
 
     model = OllamaLLM(model="llama3.2", stream=True)
 
@@ -48,7 +48,7 @@ def main():
         with st.chat_message("user" if isinstance(message, HumanMessage) else "ai"):
             st.markdown(message.content)
 
-    user_question = st.chat_input("Ask a question about Dickinson policies")
+    user_question = st.chat_input("Ask a question about college policies")
     if user_question:
 
         with st.chat_message("user"):
